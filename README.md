@@ -19,7 +19,7 @@ MIT ライセンスの下で公開する、オープンソース / フリーソ�
 
 以下のライブラリを使用しています。
 
-#### [MonoGame.Framework.Content.Pipeline.Portable](https://github.com/Grabacr07/KanColleViewer)
+#### [MonoGame.Framework.Content.Pipeline.Portable](https://www.nuget.org/packages/MonoGame.Framework.Content.Pipeline.Portable/)
 
 
 #### [ほしいものリスト](https://www.amazon.co.jp/hz/wishlist/ls/111ANSVEUB01D?type=wishlist&filter=unpurchased&sort=price-asc)
