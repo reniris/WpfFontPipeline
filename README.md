@@ -11,7 +11,7 @@ MonoGameで日本語テキスト表示をするためのライブラリ
 
 ### ライセンス
 
-* [The MIT License (MIT)](LICENSE.txt)
+* [The MIT License (MIT)](LICENSE)
 
 MIT ライセンスの下で公開する、オープンソース / フリーソフトウェアです。
 
