@@ -5,8 +5,6 @@ MonoGameで日本語テキスト表示をするためのライブラリ
 
 [カスタムコンテンツプロセッサーを利用した高度な日本語表示を行う](http://sorceryforce.net/ja/monogame/drawjapanesetextbywpffont)
 
-[ひにけにGDさん作WpfFontPipelineのフォントを変える](https://matatabisoft.com/211/)
-
 をもとにして作成しています。
 
 ### ライセンス
