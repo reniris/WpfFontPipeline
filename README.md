@@ -2,8 +2,11 @@
 MonoGameで日本語テキスト表示をするためのライブラリ
 
 [続・真・簡単(かもしれない)日本語表示](https://blogs.msdn.microsoft.com/ito/2012/06/04/73/)
+
 [カスタムコンテンツプロセッサーを利用した高度な日本語表示を行う](http://sorceryforce.net/ja/monogame/drawjapanesetextbywpffont)
+
 [ひにけにGDさん作WpfFontPipelineのフォントを変える](https://matatabisoft.com/211/)
+
 をもとにして作成しています。
 
 ### ライセンス
