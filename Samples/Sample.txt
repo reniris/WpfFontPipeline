@@ -8,3 +8,6 @@ MonoGameで日本語を含む文字列を描画するサンプルです
 [梅フォント](https://ja.osdn.net/projects/ume-font/wiki/FrontPage)の梅ゴシックを使用しています
 サンプルをビルドする場合は、あらかじめ開発環境にインストールしておいてください
 
+## EmptyKeysSimple
+UIライブラリ[EmptyKeys](http://emptykeys.com/)を使用してテキストを表示するサンプルです
+
