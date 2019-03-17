@@ -1,0 +1,43 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:WpfFontPipeline.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin font.spritefont
+/importer:FontDescriptionImporter
+/processor:WpfFontDescriptionProcessor
+/processorParam:HasAsciiCharacters=True
+/processorParam:HasZenkakuLatinLetters=True
+/processorParam:HasSpecialCharacters=True
+/processorParam:HasHiragana=True
+/processorParam:HasKatakana=True
+/processorParam:HasJisKanjiLevel1=True
+/processorParam:HasJisKanjiLevel2=True
+/processorParam:HasGreekLetters=False
+/processorParam:HasCyrillicLetters=False
+/processorParam:HasBoxCharacters=True
+/processorParam:Text=
+/processorParam:MessageFilenames=
+/processorParam:OutlineThickness=0
+/processorParam:OutlineColor=64,64,64,255
+/processorParam:OutlineShape=Miter
+/processorParam:OutlineStroke=StrokeOverFill
+/processorParam:FontColor=255,255,255,255
+/processorParam:UseGradient=False
+/processorParam:GradientBeginColor=64,128,255,255
+/processorParam:GradientEndColor=0,0,128,255
+/processorParam:GradientAngle=90
+/processorParam:TextureFormat=Auto
+/build:font.spritefont
+
