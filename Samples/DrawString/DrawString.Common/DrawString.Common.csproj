@@ -45,9 +45,6 @@
     <None Include="Content\font.spritefont" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Content\WpfFontPipeline.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Icon\Icon.bmp" />
   </ItemGroup>
   <ItemGroup>
@@ -56,6 +53,9 @@
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.Portable">
       <Version>3.7.1.189</Version>
+    </PackageReference>
+    <PackageReference Include="WpfFontPipeline">
+      <Version>1.0.0</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

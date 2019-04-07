@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>GameCommon</AssemblyName>
+    <RootNamespace>GameCommon</RootNamespace>
+    <Product>GameCommon</Product>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Copyright>Copyright (C)  2019</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="backup-2019-03-18-042452\**" />
+    <EmbeddedResource Remove="backup-2019-03-18-042452\**" />
+    <None Remove="backup-2019-03-18-042452\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EmptyKeysUI_MonoGame" Version="3.1.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL.Core" Version="3.7.0.7" />
+  </ItemGroup>
+</Project>
