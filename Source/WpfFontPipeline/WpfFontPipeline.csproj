@@ -2,7 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+
+    <NoBuild>true</NoBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <Authors>reniris</Authors>
+    <PackageProjectUrl>https://github.com/reniris/WpfFontPipeline</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/reniris/WpfFontPipeline/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>MonoGame</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,5 +23,9 @@
     <Reference Include="PresentationCore" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="if &quot;$(ConfigurationName)&quot; == &quot;Release&quot; (&#xD;&#xA;    powershell Compress-Archive -Path &quot;$(TargetPath)&quot; -DestinationPath &quot;$(TargetDir)$(SolutionName).zip&quot; -Force&#xD;&#xA;)" />
+  </Target>
 
 </Project>
