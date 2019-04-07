@@ -392,9 +392,10 @@ namespace WpfFontPipeline
 			fontSize = (float)(input.Size * (WpfDiu / 72.0));
 
 			// フォントスタイルの変換
-			var fontWeight = ((input.Style & FontDescriptionStyle.Bold) ==
-				FontDescriptionStyle.Bold) ? FontWeights.Bold : FontWeights.Regular;
-			var fontStyle = ((input.Style & FontDescriptionStyle.Italic) ==
+            var fontWeight = ((input.Style & FontDescriptionStyle.Regular) == 
+                FontDescriptionStyle.Regular) ? FontWeights.Regular : FontWeights.Bold;
+
+            var fontStyle = ((input.Style & FontDescriptionStyle.Italic) ==
 				FontDescriptionStyle.Italic) ? FontStyles.Italic : FontStyles.Normal;
 
 			// Typefaceの生成
